@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/';
 import './index.css';
-import App from './App';
+import AppJSX from './App';
 import reportWebVitals from './reportWebVitals';
 
 // 추가
@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <AppJSX />,
   </React.StrictMode>,
   document.getElementById('root')
 );
